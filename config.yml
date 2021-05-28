@@ -1,7 +1,8 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://kantatamura.github.io/portfolio"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
+canonifyurls: true
 
 enableRobotsTXT: true
 buildDrafts: false
