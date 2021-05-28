@@ -11,21 +11,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kantatamura.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>about me</title>
+      <link>https://kantatamura.github.io/portfolio/about/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kantatamura.github.io/portfolio/about/</guid>
+      <description>Who am I  Name : Kanta Tamura GitHub : KantaTamura (i0ta) Affiliation : Student at Kobe City College of Technology Location : Hyougo  Environment  OS : windows10 20H2, Ubuntu 20.04(WSL), Ubuntu Server 21.04(RPi) Version Control : git, GitHub Editor : NeoVim, Visual Studio Code, IDE(jetbrains series)  Programing Language C/C++ Rust lua
+Infrastructure windows ubuntu CentOS arduino RaspberryPi GitHub Pages
+Product none</description>
+    </item>
+    
+    <item>
       <title>Markdown Syntax Guide</title>
       <link>https://kantatamura.github.io/portfolio/posts/markdown_syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kantatamura.github.io/portfolio/posts/markdown_syntax/</guid>
       <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://kantatamura.github.io/portfolio/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kantatamura.github.io/portfolio/about/</guid>
-      <description>kanta tamura</description>
     </item>
     
     
