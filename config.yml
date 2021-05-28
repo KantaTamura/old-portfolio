@@ -1,78 +1,89 @@
 baseURL: "https://kantatamura.github.io/portfolio"
-title: ExampleSite
+title: KantaTamura
 paginate: 5
 theme: PaperMod
 canonifyurls: true
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableEmoji: true
 
 googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
   minifyOutput: true
+#
+#languages:
+#  en:
+#    languageName: "en"
+#    weight: 1
+#    profileMode:
+#      enabled: true
+#      title: Hello World
+#      buttons:
+#        - name: About
+#          url: about
+#        - name: Blog
+#          url: posts
+#        - name: Tags
+#          url: tags
+#    menu:
+#      main:
+#        - name: Archive
+#          url: archives.md/
+#          weight: 5
+#        - name: Tags
+#          url: tags
+#          weight: 10
+#        - name: Categories
+#          url: categories
+#          weight: 10
+#        - name: Series
+#          url: series
+#          weight: 10
+#        - name: NullLink
+#          url: "#"
+#        - name: NullLink2
+#          url: "#"
+#        - name: NullLink3
+#          url: "#"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  env: production
+  description: "my portfolio"
   author: Me
-  # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+
+  defaultTheme: dark
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: true
+  displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  comments: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
 
-  assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
-
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    enabled: true
+    title: "Hello World"
 
   socialIcons:
     - name: twitter
@@ -80,7 +91,7 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/KantaTamura"
 
   analytics:
     google:
@@ -110,26 +121,36 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: archives
+      name: archives
+      url: archives
       weight: 10
     - identifier: tags
       name: tags
-      url: /tags/
+      url: tags
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+    - identifier: search
+      name: search
+      url: search
+    - identifier: about
+      name: about me
+      url: about
+      weight: 5
+    - identifier: blog
+      name: blog
+      url: posts
+      weight: 8
+
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
