@@ -2,7 +2,9 @@
 title: "about me"
 ShowToc: false
 date: "2021-05-28"
-
+ShowBreadCrumbs : false
+ShowReadingTime : false
+searchHidden : true
 ---
 
 ### Who am I
