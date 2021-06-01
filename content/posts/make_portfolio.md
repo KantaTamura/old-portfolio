@@ -89,7 +89,7 @@ Goで記述されているものを見つけたから。(Goそんなにかけな
 
 ブログをmarkdown記述できる点
 
-### GitHub Pages
+## GitHub Pages
 
 本来はGitHub上のリポジトリのウェブサイトをGitHub上で構築できるもの。
 
