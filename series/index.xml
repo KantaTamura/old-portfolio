@@ -9,7 +9,16 @@
       <link>https://kantatamura.github.io/portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kantatamura.github.io/portfolio/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 13:44:23 +0900</lastBuildDate><atom:link href="https://kantatamura.github.io/portfolio/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>備忘録</title>
+      <link>https://kantatamura.github.io/portfolio/series/%E5%82%99%E5%BF%98%E9%8C%B2/</link>
+      <pubDate>Tue, 01 Jun 2021 13:44:23 +0900</pubDate>
+      
+      <guid>https://kantatamura.github.io/portfolio/series/%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Themes Guide</title>
       <link>https://kantatamura.github.io/portfolio/series/themes-guide/</link>

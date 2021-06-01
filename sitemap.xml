@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kantatamura.github.io/portfolio/tags/csg/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/tags/github-pages/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/tags/hugo/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/tags/markdown/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/posts/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/series/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/tags/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/posts/make_portfolio/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
+    <loc>https://kantatamura.github.io/portfolio/series/%E5%82%99%E5%BF%98%E9%8C%B2/</loc>
+    <lastmod>2021-06-01T13:44:23+09:00</lastmod>
+  </url><url>
     <loc>https://kantatamura.github.io/portfolio/about/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,25 +44,10 @@
     <loc>https://kantatamura.github.io/portfolio/tags/html/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kantatamura.github.io/portfolio/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kantatamura.github.io/portfolio/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kantatamura.github.io/portfolio/posts/markdown_syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kantatamura.github.io/portfolio/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kantatamura.github.io/portfolio/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kantatamura.github.io/portfolio/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kantatamura.github.io/portfolio/tags/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kantatamura.github.io/portfolio/tags/themes/</loc>
